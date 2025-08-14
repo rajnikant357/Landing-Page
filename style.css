@@ -18,7 +18,6 @@ body {
   padding: 0 1.5rem;
 }
 
-/* Header Styles */
 .header {
   padding: 1rem 0;
   background: rgba(255, 255, 255, 0.8);
@@ -98,7 +97,6 @@ body {
   width: 100%;
 }
 
-/* Main Section */
 .main-section {
   padding: 5rem 0;
   text-align: center;
@@ -141,7 +139,6 @@ body {
   color: #8b5cf6;
 }
 
-/* Subscription Box */
 .subscription-box {
   max-width: 400px;
   margin: 0 auto;
@@ -196,7 +193,6 @@ body {
   transform: scale(1.05);
 }
 
-/* About Section */
 .about-section {
   padding: 5rem 0;
   background: rgba(255, 255, 255, 0.5);
@@ -286,7 +282,6 @@ body {
   transform: scale(1.05);
 }
 
-/* Contact Section */
 .contact-section {
   padding: 5rem 0;
   background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
@@ -363,7 +358,6 @@ body {
   transform: scale(1.05);
 }
 
-/* Contact Form */
 .contact-form {
   background: rgba(255, 255, 255, 0.1);
   padding: 2rem;
@@ -423,7 +417,6 @@ body {
   transform: scale(1.05);
 }
 
-/* Footer */
 .footer {
   padding: 2rem 0;
   background: rgba(255, 255, 255, 0.8);
@@ -480,7 +473,6 @@ body {
   transform: scale(1.05);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .nav {
     display: none;
@@ -523,12 +515,10 @@ body {
   }
 }
 
-/* Smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
 
-/* Additional hover effects for text elements */
 h1,
 h2,
 h3,
@@ -537,7 +527,6 @@ span {
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
-/* Enhanced button hover effects */
 button {
   position: relative;
   overflow: hidden;

@@ -13,6 +13,4 @@ A modern and inspirational landing page that delivers daily quotes and motivatio
 ## Live Demo
 Click the "Live Demo" button above to view the site in action.
 
----
-
 © 2025 InspireMe. All rights reserved.
