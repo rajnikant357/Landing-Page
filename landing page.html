@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InspireMe - Daily Quote</title>
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <i class="fas fa-heart logo-icon"></i>
+          <h1 class="logo-text">InspireMe</h1>
+        </div>
+        <nav class="nav">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+    <main id="home" class="main-section">
+      <div class="quote-container">
+        <blockquote class="daily-quote">
+          "The only limit to our realization of tomorrow is our doubts of
+          today."
+        </blockquote>
+        <cite class="quote-author">— Franklin D. Roosevelt</cite>
+
+        <!-- Email Subscription -->
+        <div class="subscription-box">
+          <h3 class="subscription-title">
+            Get daily inspiration in your inbox
+          </h3>
+          <form class="subscription-form">
+            <input
+              type="email"
+              class="email-input"
+              placeholder="Get daily inspiration in your inbox"
+              required
+            />
+            <button type="submit" class="subscribe-btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <h2 class="section-title">About InspireMe</h2>
+        <div class="about-content">
+          <p class="about-text">
+            Welcome to InspireMe, your daily source of motivation and wisdom. We
+            believe that a single quote can change your perspective, spark
+            creativity, and fuel your journey toward success.
+          </p>
+          <p class="about-text">
+            Every day, we carefully curate inspirational quotes from great minds
+            throughout history to help you start your day with purpose and
+            positivity. Join thousands of others who begin each morning with a
+            dose of inspiration.
+          </p>
+          <div class="features">
+            <div class="feature">
+              <i class="fas fa-quote-left feature-icon"></i>
+              <h3 class="feature-title">Daily Quotes</h3>
+              <p class="feature-text">Fresh inspiration delivered every day</p>
+            </div>
+            <div class="feature">
+              <i class="fas fa-envelope feature-icon"></i>
+              <h3 class="feature-title">Email Delivery</h3>
+              <p class="feature-text">Get quotes straight to your inbox</p>
+            </div>
+            <div class="feature">
+              <i class="fas fa-heart feature-icon"></i>
+              <h3 class="feature-title">Curated Content</h3>
+              <p class="feature-text">Handpicked quotes from great minds</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3 class="contact-subtitle">We'd love to hear from you</h3>
+            <p class="contact-text">
+              Have a favorite quote to share? Want to suggest improvements? Or
+              just want to say hello? We're here to listen.
+            </p>
+            <div class="contact-methods">
+              <div class="contact-method">
+                <i class="fas fa-envelope contact-icon"></i>
+                <span class="contact-detail">contact@inspireme.com</span>
+              </div>
+              <div class="contact-method">
+                <i class="fas fa-phone contact-icon"></i>
+                <span class="contact-detail">+91 7084202503</span>
+              </div>
+              <div class="contact-method">
+                <i class="fas fa-map-marker-alt contact-icon"></i>
+                <span class="contact-detail">Varanasi, India</span>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-input"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-input"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                class="form-textarea"
+                placeholder="Your Message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="contact-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="social-icons">
+            <a href="#" class="social-link" aria-label="Facebook">
+              <i class="fab fa-facebook-f social-icon"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter">
+              <i class="fab fa-twitter social-icon"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <i class="fab fa-instagram social-icon"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in social-icon"></i>
+            </a>
+          </div>
+          <p class="copyright">© 2025 InspireMe. All rights reserved. Rajnikant Gaurav</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
